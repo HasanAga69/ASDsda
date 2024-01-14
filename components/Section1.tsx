@@ -22,9 +22,10 @@ const Section1 = () => {
         <p className={`${item.mods}`}>{item.title}</p>
       ))}
         
-          <Button 
+          {/* <Button 
+          targetSection='section2'
         title="Go down"
-        />
+        /> */}
       </div>
   )
 }
